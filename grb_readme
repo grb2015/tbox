@@ -1,0 +1,6 @@
+
+  1 在tbox上层目录写了一个hh.c文件后，用如下的命令进行编译 
+  2  gcc hh.c -o hh -ltbox -lpthread -lz -lsqlite3 -lm  -lssl  -lcrypto
+  3 
+  4  有可能还有其他的库需要链接。
+  5 
